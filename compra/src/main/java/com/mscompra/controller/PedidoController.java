@@ -19,7 +19,7 @@ public class PedidoController {
 
     @PostMapping
     public ResponseEntity<Pedido> salvar(@RequestBody Pedido pedido) {
-        return ResponseEntity.ok(pedido);
+        return ResponseEntity.ok(pedidoService.salvar(pedido));
     }
 
 }
