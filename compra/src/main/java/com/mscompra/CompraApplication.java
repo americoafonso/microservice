@@ -1,4 +1,4 @@
-package com.mscompra.compra;
+package com.mscompra;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
